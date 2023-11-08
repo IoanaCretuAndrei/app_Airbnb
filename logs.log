@@ -6263,3 +6263,91 @@ pickle: {'deps_info': {'pip': '23.3.1', 'setuptools': '57.4.0', 'pycaret': '3.1.
 2023-11-07 22:58:01,514:INFO:Preloading libraries
 2023-11-07 22:58:01,514:INFO:Set up data.
 2023-11-07 22:58:01,517:INFO:Set up index.
+2023-11-07 23:19:51,442:INFO:Initializing load_model()
+2023-11-07 23:19:51,442:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:19:51,722:INFO:Initializing load_model()
+2023-11-07 23:19:51,722:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:19:54,310:INFO:Initializing load_model()
+2023-11-07 23:19:54,310:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:19:56,597:INFO:Initializing load_model()
+2023-11-07 23:19:56,597:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:19:59,015:INFO:Initializing load_model()
+2023-11-07 23:19:59,015:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:19:59,547:INFO:Initializing load_model()
+2023-11-07 23:19:59,547:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:20:00,914:INFO:Initializing load_model()
+2023-11-07 23:20:00,915:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:20:04,952:INFO:Initializing load_model()
+2023-11-07 23:20:04,953:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:20:07,053:INFO:Initializing load_model()
+2023-11-07 23:20:07,053:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:20:10,529:INFO:Initializing load_model()
+2023-11-07 23:20:10,529:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:20:11,329:INFO:Initializing load_model()
+2023-11-07 23:20:11,329:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:20:12,443:INFO:Initializing load_model()
+2023-11-07 23:20:12,443:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:20:12,477:INFO:Initializing predict_model()
+2023-11-07 23:20:12,477:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000126420BBB80>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['accommodates', 'minimum_nights',
+                                             'maximum_nights'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['neighbourhood', 'property_type',
+                                             'room_type'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 Transfo...r(include=['neighbourhood', 'room_type'],
+                                    transformer=OneHotEncoder(cols=['neighbourhood',
+                                                                    'room_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['property_type'],
+                                    transformer=TargetEncoder(cols=['property_type'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', HuberRegressor(alpha=0.3, epsilon=1.9))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001262F676F80>)
+2023-11-07 23:20:12,477:INFO:Checking exceptions
+2023-11-07 23:20:12,477:INFO:Preloading libraries
+2023-11-07 23:20:12,478:INFO:Set up data.
+2023-11-07 23:20:12,481:INFO:Set up index.
+2023-11-07 23:21:32,841:INFO:Initializing load_model()
+2023-11-07 23:21:32,841:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:21:36,422:INFO:Initializing load_model()
+2023-11-07 23:21:36,422:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:21:40,036:INFO:Initializing load_model()
+2023-11-07 23:21:40,037:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:21:42,000:INFO:Initializing load_model()
+2023-11-07 23:21:42,000:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:21:44,182:INFO:Initializing load_model()
+2023-11-07 23:21:44,183:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:21:45,482:INFO:Initializing load_model()
+2023-11-07 23:21:45,482:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:21:46,412:INFO:Initializing load_model()
+2023-11-07 23:21:46,412:INFO:load_model(model_name=ml_airbnb, platform=None, authentication=None, verbose=True)
+2023-11-07 23:21:46,445:INFO:Initializing predict_model()
+2023-11-07 23:21:46,446:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000126420BBEB0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['accommodates', 'minimum_nights',
+                                             'maximum_nights'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['neighbourhood', 'property_type',
+                                             'room_type'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 Transfo...r(include=['neighbourhood', 'room_type'],
+                                    transformer=OneHotEncoder(cols=['neighbourhood',
+                                                                    'room_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['property_type'],
+                                    transformer=TargetEncoder(cols=['property_type'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', HuberRegressor(alpha=0.3, epsilon=1.9))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012642122950>)
+2023-11-07 23:21:46,446:INFO:Checking exceptions
+2023-11-07 23:21:46,446:INFO:Preloading libraries
+2023-11-07 23:21:46,447:INFO:Set up data.
+2023-11-07 23:21:46,450:INFO:Set up index.
